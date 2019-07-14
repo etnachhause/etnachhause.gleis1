@@ -1,0 +1,23 @@
+{
+  "name": "gleis1",
+  "short_name": "Gleis",
+  "description": "my first PWA",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "de-de",
+
+  "icons": [
+  {
+      "src": "bilder/touch-icon-iphone.png",
+      "sizes": "128x128",
+      "type": "image/png"
+   },
+   {
+      "src": "bilder/touch-icon-iphone_144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+   }
+   ]
+   
+}
