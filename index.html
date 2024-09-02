@@ -218,8 +218,8 @@
 
 <!-- strecke kilometer--------------------------------------------------------------------------------------- -->
 
-			 document.getElementById('showmapposition').addEventListener('touchstart', getLocation, true);
-			 document.getElementById('showmapmanually').addEventListener('touchstart', showDirect, true);
+			 document.getElementById('showmapposition').addEventListener('touchstart', getLocation,  {passive: true});
+			 document.getElementById('showmapmanually').addEventListener('touchstart', showDirect,  {passive: true});
 
 			function cssNachladen(type) {
 			  // removejscssfile("styles/geopp-ios.css", "css")
